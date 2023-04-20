@@ -1,0 +1,17 @@
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.conteudo > div img {
+    max-width: 100%; /* MAXIMO DE LARGURA */
+    display: block; /* ELE TRANSFORMA EM BLOCO (FICA GRUDADA, PORQUE AS IMAGENS SAO DE LINHAS) */
+}
+
+.conteudo > div {
+    flex-grow: 1; /* TAXA DE CRESCIMENTO */
+    flex-shrink: 1; /* TAXA DE ENCOLHIMENTO */
+    flex-basis: 300px; /* ELE DIVIDE IGUALMENTE OS PIXEL */
+}
