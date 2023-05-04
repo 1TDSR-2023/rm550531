@@ -8,4 +8,4 @@ if(nome1 != ""){
     let nome1 = "Geovana"
 }
 
-console.log(nome1);
+console.log(nome1); 
